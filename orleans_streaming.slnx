@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="orleans_streaming.ApiService/orleans_streaming.ApiService.csproj" />
+  <Project Path="orleans_streaming.AppHost/orleans_streaming.AppHost.csproj" />
+  <Project Path="orleans_streaming.ServiceDefaults/orleans_streaming.ServiceDefaults.csproj" />
+  <Project Path="orleans_streaming.Web/orleans_streaming.Web.csproj" />
+</Solution>
