@@ -12,6 +12,7 @@ builder.Services.AddProblemDetails();
 builder.Services.AddOpenApi();
 
 builder.AddKeyedRedisClient("redis");
+builder.UseOrleans();
 
 var app = builder.Build();
 

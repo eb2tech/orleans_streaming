@@ -8,7 +8,7 @@ var redis = builder.AddRedis("redis");
 var orleans = builder.AddOrleans("orleans")
                      .WithClustering(redis)
                      .WithGrainStorage("storage", redis)
-                     .WithStreaming(nats);
+                     /*.WithStreaming(nats)*/;
 
 var apiService = builder.AddProject<Projects.orleans_streaming_ApiService>("apiservice")
                         .WithReference(orleans)
